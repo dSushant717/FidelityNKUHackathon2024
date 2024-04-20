@@ -98,7 +98,8 @@ const Row3 = () => {
           height="75%"
           sx={{
             "& .MuiDataGrid-root": {
-              color: palette.grey[300],
+              color: "#fff",
+              background: "#000",
               border: "none",
             },
             "& .MuiDataGrid-cell": {
@@ -132,13 +133,17 @@ const Row3 = () => {
           height="80%"
           sx={{
             "& .MuiDataGrid-root": {
-              color: palette.grey[300],
+              color: "#000",
+              // background: "#000",
               border: "none",
+              background: `#CCFFCC !important`,
             },
             "& .MuiDataGrid-cell": {
+              background: "#CCFFCC",
               borderBottom: `1px solid ${palette.grey[800]} !important`,
             },
             "& .MuiDataGrid-columnHeaders": {
+              background: "#CCFFCC",
               borderBottom: `1px solid ${palette.grey[800]} !important`,
             },
             "& .MuiDataGrid-columnSeparator": {
