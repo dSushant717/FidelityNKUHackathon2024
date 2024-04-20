@@ -133,17 +133,15 @@ const Row3 = () => {
           height="80%"
           sx={{
             "& .MuiDataGrid-root": {
-              color: "#000",
-              // background: "#000",
+              color: "#fff",
+              background: "#000",
               border: "none",
-              background: `#CCFFCC !important`,
             },
             "& .MuiDataGrid-cell": {
-              background: "#CCFFCC",
               borderBottom: `1px solid ${palette.grey[800]} !important`,
             },
             "& .MuiDataGrid-columnHeaders": {
-              background: "#CCFFCC",
+              background: "#000",
               borderBottom: `1px solid ${palette.grey[800]} !important`,
             },
             "& .MuiDataGrid-columnSeparator": {
